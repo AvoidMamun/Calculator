@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator..</title>
+    
+    <style>
+        h1 {
+            text-align: center;
+            padding: 23px;
+            background-color: skyblue;
+            color: white;
+            }
+        
+        #clear{
+        width: 270px;
+        border: 3px solid gray;
+            border-radius: 3px;
+            padding: 20px;
+            background-color: red;
+        }
+        
+        .formstyle
+        {
+        width: 300px;
+        height: 530px;
+        margin: auto;
+        border: 3px solid skyblue;
+        border-radius: 5px;
+        padding: 20px;
+        }
+        
+        
+        
+        input
+        {
+        width: 20px;
+        background-color: rgb(66, 62, 62);
+        color: white;
+        border: 3px solid gray;
+            border-radius: 5px;
+            padding: 26px;
+            margin: 5px;
+            font-size: 15px;
+        }
+        
+        
+        #calc{
+        width: 250px;
+        border: 5px solid black;
+            border-radius: 3px;
+            padding: 20px;
+            margin: auto;
+        }
+        
+        </style>
+
+
+</head>
+
+<body>  
+
+    <h1>CALCULATOR WITH JAVASCRIPT..</h1>
+    <div class="formstyle">
+        <form name="formone">
+            
+            <input id="calc" type="text" name="answer"> <br> <br>
+
+   <input  type="button" value="1" onclick="f1()">
+   <input  type="button" value="2" onclick="f2()">
+   <input  type="button" value="3" onclick="f3()">
+   <input  type="button" value="+" onclick="fplus()">
+   <br> <br>
+
+   <input  type="button" value="4" onclick="f4()">
+   <input  type="button" value="5" onclick="f5()">
+   <input  type="button" value="6" onclick="f6()">
+   <input  type="button" value="-" onclick="fminus()">
+   <br> <br>
+
+   <input  type="button" value="7" onclick="f7()">
+   <input  type="button" value="8" onclick="f8()">
+   <input  type="button" value="9" onclick="f9()">
+   <input  type="button" value="*" onclick="fmult()">
+   <br> <br>
+
+   <input  type="button" value="/" onclick="fdv()">
+   <input  type="button" value="0" onclick="f0()">
+   
+ 
+
+   <input  type="button" value="clr" onclick="clr()">
+   <input  type="button" value="und" onclick="undo()">
+   <input  type="button" value="=" onclick="result()">
+   
+
+   
+        <div style="color: rgb(0, 124, 77); text-align: center; font-size: larger;" ><script>
+
+         document.write('CALCULATOR SERVICE..');
+        </script></div>
+        
+
+
+       
+       
+       
+       
+       
+         
+          </form>
+        </div>
+<script src="domjs.js"></script>
+</body>
+</html>
